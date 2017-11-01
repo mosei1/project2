@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+  <html lang="en" id="registration">
+    <div class="register">
+        <form method="GET" action="#null" enctype="multipart/form-data">
+          <fieldset>
+            <p>
+              <label for="pin">Enter pin:</label>
+              <input id="pin" type="text" name="user_name" placeholder="Username/Email">
+            </p>
+            <p>
+              <label id="semester">Select Semester:</label>
+              <select id="semester">
+                <option value="value1" selected>Spring 2018</option> 
+              </select>
+            </p>
+            <p>
+              <label for="acknowledge">Acknowledge:</label>
+              <input id="acknowledge" type="checkbox" name="user_name">
+            </p>
+          </fieldset>
+          <p class="button">
+            <input type="submit" value="Submit" onclick="return Validate()" id="submit">
+          </p>
+        </form>
+      </div>
+  </html>
