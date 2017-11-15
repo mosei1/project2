@@ -19,6 +19,26 @@
 <script>
 function init()
 {
-document.getElementById("date").innerHTML = Date();}
+// Retrieving the text input's value which was stored into localStorage
+        var CRN_Code1 = localStorage.getItem("CRN_Code1");
+				var CRN_Code2 = localStorage.getItem("CRN_Code2");
+				var CRN_Code3 = localStorage.getItem("CRN_Code3");
+				var CRN_Code4 = localStorage.getItem("CRN_Code4");
+				var CRN_Code5 = localStorage.getItem("CRN_Code5");
+				var CRN_Code6 = localStorage.getItem("CRN_Code6");
+				var CRN_Code7 = localStorage.getItem("CRN_Code7");
+				var CRN_Code8 = localStorage.getItem("CRN_Code8");
+        // Writing the value in the document
+        document.write("Course 1 CRN = "+CRN_Code1);
+			  document.write(" Course  2 CRN = "+CRN_Code2);	
+				document.write(" Course  3 CRN = "+CRN_Code3);	
+				document.write(" Course  4 CRN = "+CRN_Code4);	
+				document.write(" Course  5 CRN = "+CRN_Code5);	
+				document.write(" Course  6 CRN = "+CRN_Code6);	
+				document.write(" Course  7 CRN = "+CRN_Code7);
+				document.write(" Course  8 CRN = "+CRN_Code8);					
+
+document.getElementById("date").innerHTML = Date();
+}
 </script>
 </html>
