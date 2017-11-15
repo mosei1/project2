@@ -38,7 +38,26 @@ body{
 	text-align: center;
 
 }
+#confirmpage
+{
+		line-height: 1.75;
+}
+#confirmpage h1{
+	font-size:4.5em;
+	
+}
+#confirmpage p{
+	
+}
 
+hr{
+	display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 25px;
+    margin-right: 25px;
+    border-width: 1px;
+}
 .content{
   max-width: 80%;
   margin: auto;
