@@ -40,7 +40,8 @@ body{
 }
 #confirmpage
 {
-		line-height: 1.75;
+	font-family: 'Merriweather', serif;
+	line-height: 1.75;
 }
 #confirmpage h1{
 	font-size:4.5em;
