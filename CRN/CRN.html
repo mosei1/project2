@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" class="nojs">
+    <link rel="icon" type="image/jpg" href="http://mypages.iit.edu/~cxie9/project_3_team/iiticon.png">
+        <title>|MyIIT|</title>
+  <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
+    <link rel="stylesheet" media="screen" href="style.css" />
+        <script type="text/javascript">
+
+        // Called on form's `onsubmit`
+        function tosubmit() {
+            // Getting the value of your text input
+            var CRN_Code1 = document.getElementById("CRN_Code1").value;
+						var CRN_Code2 = document.getElementById("CRN_Code2").value;
+						var CRN_Code3 = document.getElementById("CRN_Code3").value;
+						var CRN_Code4 = document.getElementById("CRN_Code4").value;
+						var CRN_Code5 = document.getElementById("CRN_Code5").value;
+						var CRN_Code6 = document.getElementById("CRN_Code6").value;
+						var CRN_Code7 = document.getElementById("CRN_Code7").value;
+						var CRN_Code8 = document.getElementById("CRN_Code8").value;
+            // Storing the value above into localStorage
+            localStorage.setItem("CRN_Code1", CRN_Code1);
+						localStorage.setItem("CRN_Code2", CRN_Code2);
+						localStorage.setItem("CRN_Code3", CRN_Code3);
+						localStorage.setItem("CRN_Code4", CRN_Code4);
+						localStorage.setItem("CRN_Code5", CRN_Code5);
+						localStorage.setItem("CRN_Code6", CRN_Code6);
+						localStorage.setItem("CRN_Code7", CRN_Code7);
+						localStorage.setItem("CRN_Code8", CRN_Code8);
+						
+					
+
+            return true;
+        }
+
+    </script> 
+    </head>
+    <body>
+          <div>
+            <img src="main.jpg" alt="TheTitle" class="pic" width="1200" height="300">
+            </div>
+
+            <h1 id="title1">Add or Drop Classes</h1>
+
+            <h3 id="titles"> You cannot modify your class schedule this current term. To add a class, use the Course Search or enter the Course Reference Number (CRN) in the Add Classes section. To drop or withdraw from a class, use the Action pull-down list(s).</h3>
+            
+            <h2 id="titl">Please note that you are NOT officially registered for a class if the status is Waitlisted.</h2>
+
+            <h1 id="title">Add Classes Worksheet</h1>
+
+            <h1 id="title2">CRNs</h1>
+
+                   
+                    <form method="get" action="#null" onsubmit="Validate()" autocomplete="on">
+                    <div id="labels">
+                        <label><input id="CRN_Code1"type="text" name="CRN_Code1" size=15 maxlength=5 value="" required=""></label>
+                        <label><input id="CRN_Code2"type="text" name="CRN_Code2" size=15 maxlength=5 value="" required=""></label>
+                        <label><input id="CRN_Code3"type="text" name="CRN_Code3" size=15 maxlength=5 value="" required=""></label>
+                        <label><input id="CRN_Code4"type="text" name="CRN_Code4" size=15 maxlength=5 value="" required=""></label>
+                        <label><input id="CRN_Code5"type="text" name="CRN_Code5" size=15 maxlength=5 value="" required=""></label>
+                        <label><input id="CRN_Code6"type="text" name="CRN_Code6" size=15 maxlength=5 value="" required=""></label>
+                        <label><input id="CRN_Code7"type="text" name="CRN_Code7" size=15 maxlength=5 value="" required=""></label>
+                        <label><input id="CRN_Code8"type="text" name="CRN_Code8" size=15 maxlength=5 value="" required=""></label>
+                    </div>
+                
+
+                <fieldset id="submit">
+                    <div>
+                        <input type="hidden" name="hidden_field">
+                    </div>
+                </fieldset>
+                <div>
+                <input type="submit" value="Submit Changes">
+                </div>
+                </form>
+    </body>
+</html>

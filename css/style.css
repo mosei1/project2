@@ -38,7 +38,27 @@ body{
 	text-align: center;
 
 }
+#confirmpage
+{
+	font-family: 'Merriweather', serif;
+	line-height: 1.75;
+}
+#confirmpage h1{
+	font-size:4.5em;
+	
+}
+#confirmpage p{
+	
+}
 
+hr{
+	display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 25px;
+    margin-right: 25px;
+    border-width: 1px;
+}
 .content{
   max-width: 80%;
   margin: auto;
@@ -63,7 +83,7 @@ html {
 
 fieldset
 {
-	text-align: center;
+  text-align: center;
   font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 20px;
   line-height: 1.6em;
@@ -141,3 +161,55 @@ li a:hover:not(.active) {
     width: 75%;
   }
 }
+label{
+	font-family: Didot, 'Didot LT STD', 'Hoefler Text', Garamond, 'Times New Roman', serif;
+	color: black;
+	text-align: left;
+	font-size: 20px;
+	text-shadow: 0px 0px 2px rgba(255,255,255,0.7);
+	display: flex;
+	flex-direction: column;
+	margin-left: 550px;
+	margin-right: 550px;
+	padding-top: 25px;
+
+}
+
+#titles{
+    color: black;
+    text-align: left;
+    font-size:20px;
+    padding-top: 25px;
+}
+#titl{
+	color: black;
+    text-align: left;
+    font-size:20px;
+    font-weight: bold;
+    margin:auto;
+    padding-top: 25px;
+}
+
+#title{
+	color: black;
+    text-align: left;
+    font-size:25px;
+    margin:auto;
+    padding-top: 25px;
+}
+#title1{
+	color: black;
+    text-align: left;
+    font-size:25px;
+    margin:auto;
+    padding-top: 25px;
+}
+
+#title2{
+	color: black;
+    text-align: center;
+    font-size:25px;
+    margin:auto;
+    padding-top: 25px;
+}
+
