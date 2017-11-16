@@ -45,10 +45,10 @@ body{
 }
 #confirmpage h1{
 	font-size:4.5em;
-	
+
 }
 #confirmpage p{
-	
+
 }
 
 hr{
@@ -161,7 +161,7 @@ li a:hover:not(.active) {
     width: 75%;
   }
 }
-label{
+#label{
 	font-family: Didot, 'Didot LT STD', 'Hoefler Text', Garamond, 'Times New Roman', serif;
 	color: black;
 	text-align: left;
@@ -212,4 +212,3 @@ label{
     margin:auto;
     padding-top: 25px;
 }
-
