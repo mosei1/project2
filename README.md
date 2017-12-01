@@ -7,4 +7,4 @@ Jessica- She did well in creating  the CRN page and was very active in the group
 
 Jaina- She worked on the javascript. She was very  instrumental in the project work.
 
-Martae-He worked on the registration page. He did well with the layout and css.
+Martae-He worked on the registration page. He did well with the layout and css. Martae likes to create semantic HTML page. 
